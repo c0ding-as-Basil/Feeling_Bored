@@ -138,7 +138,7 @@ def main():
 
     # Create a save path in the same directory as the program
     directory = os.path.dirname(os.path.abspath(__file__))  # get current directory
-    save_path = os.path.join(directory, '../LovelyNunu/transformed_image.jpg')
+    save_path = os.path.join(directory, '../IP_ASS_1_BESO/transformed_image.jpg')
 
     output_img.save(save_path)
     print("==> Transformed Image saved!")
